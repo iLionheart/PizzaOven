@@ -3,6 +3,11 @@
  * This code uses the Adafruit Graphics library with the Temperature sensors and IR sensor
  */
 
+/*
+ * this is a comment about buttface. Its a great word that, in my opinion, should be used more often
+ */
+
+ 
 #include <Adafruit_GFX.h>//core graphics
 #include <Adafruit_ST7735.h>//hardware-specific library
 #include <SPI.h>//the spi library

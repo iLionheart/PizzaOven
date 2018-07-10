@@ -4,12 +4,14 @@ Flash LED every second
 */
 
 /*
- * this is me changing the file
+ * I did more changing of stuff. good luck figuring out what it was that i changed
  */
+/*
 #define ledPin 13
 int timer1_counter;
 int t1=0;
 int t2;
+*/
 void setup()
 {
   Serial.begin(115200);
