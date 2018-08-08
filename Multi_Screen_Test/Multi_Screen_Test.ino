@@ -1,10 +1,6 @@
 #include <SPI.h>
 
-//#include <Adafruit_GFX.h>
-//#include <Adafruit_SPITFT.h>
-//#include <Adafruit_SPITFT_Macros.h>
-//#include <gfxfont.h>
-
+#include <Adafruit_GFX.h>
 #include <Adafruit_ST7735.h>
 
 #include "Arduino.h"
@@ -28,10 +24,15 @@ void setup() {
   Serial.begin(9600);
   Serial.println("Multi ST7735 Display Test");
 
-  Display A = Display(ATFT_CS, TFT_DC, TFT_RST);
-  Display B = Display(BTFT_CS, TFT_DC, TFT_RST);
-  Display C = Display(CTFT_CS, TFT_DC, TFT_RST);
-  Display D = Display(DTFT_CS, TFT_DC, TFT_RST);
+  Display A = Display();
+  Display B = Display();
+  Display C = Display();
+  Display D = Display();
+
+  A.initialize(ATFT_CS, TFT_DC, TFT_RST);
+  B.initialize(BTFT_CS, TFT_DC, TFT_RST);
+  C.initialize(CTFT_CS, TFT_DC, TFT_RST);
+  D.initialize(DTFT_CS, TFT_DC, TFT_RST);
 
   Shelves[0] = A;
   Shelves[1] = B;

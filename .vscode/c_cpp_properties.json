@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Program Files (x86)/Arduino/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK",
+                "C:/Program Files (x86)/Arduino/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO",
+                "C:/Program Files (x86)/Arduino/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS",
+                "C:/Program Files (x86)/Arduino/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/PREPROCESSOR",
+                "C:/Users/Andrew/Documents/Arduino/libraries/Adafruit_ST7735_Library",
+                "C:/Users/Andrew/Documents/Arduino/libraries/Adafruit_ST7735_Library",
+                "C:/Users/Andrew/Documents/Arduino/libraries/Adafruit_ST7735_Library",
+                "C:/Program Files (x86)/Arduino/libraries/TFT/src/utility",
+                "C:/Users/Andrew/Documents/Arduino/libraries/Adafruit_ST7735_Library",
+                "C:/Program Files (x86)/Arduino/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

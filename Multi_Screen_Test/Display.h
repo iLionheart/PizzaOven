@@ -1,22 +1,15 @@
 #ifndef Display_h
 #define Display_h
 
-#if ARDUINO >= 100
-  #include "Arduino.h"
-#else
-  #include "WProgram.h"
-  #include "pins_arduino.h"
-  #include "WConstants.h"
-#endif
+#include "Arduino.h"
 
 #include <Adafruit_ST7735.h>
+#include <Adafruit_GFX.h>
 
 class Display{
   public:
-   Adafruit_ST7735 tft;
+   Adafruit_ST7735 tft = Adafruit_ST7735(12,13,14);
    Display();
-
-  private:
    int CS;
    int DC;
    int RST;
